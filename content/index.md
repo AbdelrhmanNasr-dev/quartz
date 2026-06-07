@@ -4,27 +4,41 @@ draft: false
 tags:
 comments: "false"
 ---
-# Welcome to My Digital Garden 🌱
+---
+title: Home
+---
 
-Hello, I'm Abdelrhman Nasr. This is my personal knowledge base where I cultivate my thoughts, technical notes, and active projects. Everything here is structured to help me learn, build, and organize my journey as a developer.
+# 👋 Welcome to My Digital Workspace
 
-![[045.jpg | 200]]
+I'm **Abdelrhman Nasr**, a Computer Science student at MUST and an aspiring junior backend engineer specializing in the .NET framework and C#. This space serves as my central hub for organizing my thoughts, tracking my academic and technical progress, and managing my daily quests.
+
+![[public/assets/045.jpg|200]]
 
 ---
 
-## 🗺️ Maps of Content (MoCs)
-Dive into my primary areas of focus and exploration:
+## 🗂️ The PARA System
 
-## 📁 The PARA System
-My vault is organized using the PARA method to keep everything actionable and clean:
+This vault is structured around the PARA method to keep my knowledge actionable, clean, and organized:
 
-* **[[Projects]]** — Active development tasks, including my restaurant management system.
-* **[[Areas]]** — Ongoing domains of focus like software engineering and soft skills.
-* **[[Resources]]** — Code snippets, bookmarks, and reference materials.
-* **[[Archives]]** — Completed courses (like the 120-hour ITI program) and past milestones.
+*   📁 Projects 
+    *   *Active missions with a clear finish line.* (e.g., ASP.NET Core applications, current university assignments, and gamified productivity builds).
+*   📂 Areas 
+    *   *Spheres of ongoing responsibility and growth.* (e.g., Backend Architecture, Computer Science fundamentals, English language development).
+*   📚 3-Resources 
+    *   *Curated knowledge and references.* (e.g., C# documentation, design assets, pixel art inspiration, and code snippets).
+*   🗃️ 4-Archives
+    *   *Completed quests and inactive items.* (e.g., Finished ITI courses, past semesters, and retired projects).
+
+---
+
+## 🔗 Connect & Explore
+
+Here is where you can find my work, projects, and content across the web:
+
+*   **GitHub:** [View my repositories and code commits]
+*   **LinkedIn:** [Connect with me professionally]
+*   **YouTube:** [@itsMeAbdelrhmanNasr]
 
 
 ---
 
-### About This Site
-Curious about how this repository is structured or looking for the setup documentation? 
