@@ -8,6 +8,8 @@ comments: "false"
 
 Hello, I'm Abdelrhman Nasr. This is my personal knowledge base where I cultivate my thoughts, technical notes, and active projects. Everything here is structured to help me learn, build, and organize my journey as a developer.
 
+![[045.jpg | 200]]
+
 ---
 
 ## 🗺️ Maps of Content (MoCs)
