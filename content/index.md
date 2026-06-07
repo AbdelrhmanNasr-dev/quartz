@@ -12,7 +12,7 @@ title: Home
 
 I'm **Abdelrhman Nasr**, a Computer Science student at MUST and an aspiring junior backend engineer specializing in the .NET framework and C#. This space serves as my central hub for organizing my thoughts, tracking my academic and technical progress, and managing my daily quests.
 
-![[public/assets/045.jpg|200]]
+![[045.jpg|200]]
 
 ---
 
