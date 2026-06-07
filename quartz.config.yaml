@@ -46,12 +46,12 @@ plugins:
     options:
       provider: giscus
       options:
-      repo: "abdelrhmanNasr-dev/quartz"
-      repoId: "R_kgDOSz0ofg"
-      category: "Announcements"
-      categoryId: "DIC_kwDOSz0ofs4C-tkp"
-      lang: en
-      layout:
+        repo: "abdelrhmanNasr-dev/quartz"
+        repoId: "R_kgDOSz0ofg"
+        category: "Announcements"
+        categoryId: "DIC_kwDOSz0ofs4C-tkp"
+        lang: en
+    layout:
       position: afterBody
       priority: 10
   - source: github:quartz-community/created-modified-date
