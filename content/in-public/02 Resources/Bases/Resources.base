@@ -1,0 +1,259 @@
+summaries:
+  Range: (values.latest() - values.earliest())
+  new summary: date.year
+formulas:
+  year: ""
+properties:
+  file.name:
+    displayName: Link
+  note.Completed:
+    displayName: watched
+  note.about:
+    displayName: idea
+views:
+  - type: cards
+    name: Movies
+    filters:
+      and:
+        - category.contains("movie")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - watched
+      - personalRating
+    sort: []
+    image: note.image
+    cardSize: 190
+    columnOrders:
+      file.file:
+        - 99 - Metadata/Templetes/Movie 1 1.md
+        - 99 - Metadata/Templetes/Movie 1.md
+        - 99 - Metadata/Templetes/Movie.md
+    cardOrders:
+      file.file: {}
+    columnColors:
+      file.file: {}
+    imageAspectRatio: 1.8
+  - type: cards
+    name: series
+    filters:
+      and:
+        - category.contains("series")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - watched
+      - personalRating
+    sort: []
+    image: note.image
+    cardSize: 190
+    columnOrders:
+      file.file:
+        - 99 - Metadata/Templetes/Movie 1 1.md
+        - 99 - Metadata/Templetes/Movie 1.md
+        - 99 - Metadata/Templetes/Movie.md
+    cardOrders:
+      file.file: {}
+    columnColors:
+      file.file: {}
+    imageAspectRatio: 1.7
+    columnSize:
+      file.name: 328
+  - type: cards
+    name: Books
+    filters:
+      and:
+        - category.contains("book")
+        - '!file.inFolder("Templetes")'
+    order:
+      - title
+      - author
+      - personalRating
+      - read
+    sort: []
+    image: note.image
+    cardSize: 190
+    imageFit: contain
+    imageAspectRatio: 1.5
+  - type: cards
+    name: Games
+    filters:
+      and:
+        - category.contains("game")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - played
+      - personalRating
+    image: note.image
+    imageAspectRatio: 0.35
+    cardSize: 310
+  - type: table
+    name: Backlog
+    filters:
+      and:
+        - category.contains("backlog")
+        - '!file.inFolder("Templetes")'
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - date
+      - type
+      - reason
+      - tags
+      - category
+    sort: []
+    columnSize:
+      file.name: 77
+      note.title: 192
+      note.type: 109
+      note.reason: 301
+  - type: table
+    name: Quotes
+    filters:
+      and:
+        - category.contains("quote")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - title
+      - date
+      - author
+      - source
+      - tags
+    sort: []
+    columnSize:
+      file.name: 80
+      note.title: 229
+      note.date: 124
+      note.source: 129
+  - type: table
+    name: experiment
+    filters:
+      and:
+        - type.contains("experiment")
+        - '!file.inFolder("Templetes")'
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - date
+      - tags
+    sort:
+      - property: title
+        direction: ASC
+    columnSize:
+      file.name: 73
+  - type: table
+    name: Urls
+    filters:
+      and:
+        - category.contains("url")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - title
+      - status
+      - url
+      - tags
+    columnSize:
+      file.name: 75
+      note.title: 168
+      note.status: 79
+  - type: table
+    name: Podcasts
+    filters:
+      and:
+        - category.contains("podcast")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - title
+      - performer
+      - channel
+      - seen
+      - rate
+      - type
+      - resource
+      - url
+      - tags
+    sort:
+      - property: rate
+        direction: ASC
+    columnSize:
+      file.name: 277
+      note.title: 232
+      note.performer: 146
+      note.channel: 206
+      note.seen: 67
+      note.rate: 63
+      note.type: 86
+      note.url: 269
+      note.tags: 215
+  - type: table
+    name: Projects
+    filters:
+      and:
+        - type.contains("project")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - title
+      - reason
+      - date
+      - done
+    columnSize:
+      file.name: 79
+      note.date: 127
+      note.done: 91
+  - type: table
+    name: Courses
+    filters:
+      and:
+        - type.contains("course")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - title
+      - url
+      - finished
+      - source
+      - tags
+      - category
+      - type
+    sort:
+      - property: resource
+        direction: ASC
+    columnSize:
+      file.name: 73
+      note.title: 257
+      note.url: 269
+      note.finished: 87
+  - type: table
+    name: Apps
+    filters:
+      and:
+        - category.contains("app")
+        - '!file.inFolder("Templetes")'
+    order:
+      - file.name
+      - type
+      - date
+      - developers
+      - about
+      - url
+      - tags
+    sort:
+      - property: date
+        direction: DESC
+    columnSize:
+      file.name: 171
+      note.type: 143
+      note.date: 113
+      note.developers: 117
+      note.about: 207

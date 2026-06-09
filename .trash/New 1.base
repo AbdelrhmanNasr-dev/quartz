@@ -12,9 +12,12 @@ views:
     order:
       - file.name
       - formula.deadline
-      - tags
       - publishDate
+      - tags
+      - date
     sort: []
     columnSize:
+      file.name: 112
       formula.deadline: 93
+      note.tags: 131
       note.publishDate: 139

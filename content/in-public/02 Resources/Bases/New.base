@@ -1,0 +1,22 @@
+formulas:
+  deadline: (publishDate + "7 days") < today()
+views:
+  - type: table
+    name: New
+    filters:
+      and:
+        - file.hasTag("#new")
+    groupBy:
+      property: formula.deadline
+      direction: ASC
+    order:
+      - file.name
+      - formula.deadline
+      - publishDate
+      - tags
+    sort: []
+    columnSize:
+      file.name: 183
+      formula.deadline: 84
+      note.publishDate: 139
+      note.tags: 108

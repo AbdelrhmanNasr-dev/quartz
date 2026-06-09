@@ -1,5 +1,5 @@
 ---
-title: <% tp.file.title %>
+title: Untitled
 draft: false
 tags:
 comments: "true"

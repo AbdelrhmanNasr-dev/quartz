@@ -7,9 +7,9 @@ comments: "false"
 
 # 👋 Welcome to My Digital Workspace
 
-I'm **Abdelrhman Nasr**, a Computer Science student at MUST and an aspiring junior backend engineer specializing in the .NET framework and C#. This space serves as my central hub for organizing my thoughts, tracking my academic and technical progress, and managing my daily quests.
+I'm **Abdelrhman Nasr**, a Computer Science student at October Technological University (OTU) and an aspiring junior backend engineer specializing in the .NET framework and C#. This space serves as my central hub for organizing my thoughts, tracking my academic and technical progress, and managing my daily quests.
 
-![[045.jpg|200]]
+![[045.jpg|255]]
 
 ---
 
@@ -38,4 +38,5 @@ Here is where you can find my work, projects, and content across the web:
 
 
 ---
+
 
