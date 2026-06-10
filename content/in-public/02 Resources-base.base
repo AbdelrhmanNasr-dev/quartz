@@ -16,7 +16,7 @@ views:
     filters:
       and:
         - category.contains("movie")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - watched
@@ -39,7 +39,7 @@ views:
     filters:
       and:
         - category.contains("series")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - watched
@@ -64,7 +64,7 @@ views:
     filters:
       and:
         - category.contains("book")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - title
       - author
@@ -80,7 +80,7 @@ views:
     filters:
       and:
         - category.contains("game")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - played
@@ -93,7 +93,7 @@ views:
     filters:
       and:
         - category.contains("backlog")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     groupBy:
       property: type
       direction: ASC
@@ -116,7 +116,7 @@ views:
     filters:
       and:
         - category.contains("quote")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - title
@@ -135,7 +135,7 @@ views:
     filters:
       and:
         - type.contains("experiment")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     groupBy:
       property: type
       direction: ASC
@@ -154,7 +154,7 @@ views:
     filters:
       and:
         - category.contains("url")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - title
@@ -170,7 +170,7 @@ views:
     filters:
       and:
         - category.contains("podcast")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - title
@@ -200,7 +200,7 @@ views:
     filters:
       and:
         - type.contains("project")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - title
@@ -216,7 +216,7 @@ views:
     filters:
       and:
         - type.contains("course")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - title
@@ -239,7 +239,7 @@ views:
     filters:
       and:
         - category.contains("app")
-        - '!file.inFolder("Templetes")'
+        - '!file.inFolder("Templates")'
     order:
       - file.name
       - type
