@@ -1,0 +1,46 @@
+summaries:
+  new summary: date(date).format("YYYY")
+filters:
+  and:
+    - file.inFolder("03 - Permanent")
+formulas:
+  Year: date(date).format("YYYY-MM-DD")
+properties:
+  note.quate:
+    displayName: quote
+views:
+  - type: table
+    name: Concepts
+    filters:
+      and:
+        - category.contains("concept")
+        - '!file.inFolder("99 - Metadata/Templetes")'
+    order:
+      - file.name
+      - type
+      - source
+      - date
+    sort:
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 379
+      note.title: 317
+      note.date: 117
+  - type: table
+    name: Thouts
+    filters:
+      and:
+        - category.contains("thout")
+        - '!file.inFolder("99 - Metadata/Templetes")'
+    order:
+      - file.name
+      - situation
+      - date
+    sort:
+      - property: title
+        direction: ASC
+    columnSize:
+      file.name: 235
+      note.situation: 379
+      note.date: 117

@@ -16,4 +16,4 @@ channel:
 ---
 # <% tp.file.title %>
 
-![[Resources.base#Podcasts]]
+![[Resources-base.base#Podcasts]]

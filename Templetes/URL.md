@@ -28,4 +28,4 @@ links:
 *(Link to other relevant concepts, literature notes, or projects)*
 * [[ ]]
 
-![[Resources.base#Urls]]
+![[Resources-base.base#Urls]]

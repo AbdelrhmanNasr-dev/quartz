@@ -12,4 +12,4 @@ type:
 # <% tp.file.title %>
 
 
-![[Resources.base#Backlog]]
+![[Resources-base.base#Backlog]]

@@ -17,4 +17,4 @@ done:
 # <% tp.file.title %>
 
 
-![[Resources.base#Projects]]
+![[Resources-base.base#Projects]]

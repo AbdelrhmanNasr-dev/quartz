@@ -299,12 +299,18 @@ layout:
     folder:
       exclude:
         - reader-mode
+        - comments
       positions:
         right: []
     tag:
       exclude:
         - reader-mode
+        - comments
       positions:
         right: []
-    canvas: {}
-    bases: {}
+    canvas: 
+      exclude:
+        - comments
+    bases: 
+      exclude:
+        - comments

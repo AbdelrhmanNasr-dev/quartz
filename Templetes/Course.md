@@ -17,7 +17,7 @@ type: course
 
 # <% tp.file.title %>
 
-![[Resources.base#Courses]]
+![[Resources-base.base#Courses]]
 
 
 

@@ -14,4 +14,4 @@ links:
 # <% tp.file.title %>
 
 
-![[Resources.base#Apps]]
+![[Resources-base.base#Apps]]

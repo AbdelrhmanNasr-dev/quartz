@@ -9,7 +9,9 @@ comments: "false"
 
 I'm **Abdelrhman Nasr**, a Computer Science student at October Technological University (OTU) and an aspiring junior backend engineer specializing in the .NET framework and C#. This space serves as my central hub for organizing my thoughts, tracking my academic and technical progress, and managing my daily quests.
 
-![[045.jpg|255]]
+![[045.jpg|103]]
+ www.instagram.com
+www.linkedIn.com
 
 ---
 

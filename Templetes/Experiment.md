@@ -18,4 +18,4 @@ tags:
 # Why ? 🤔
 
 
-![[Resources.base#experiment]]
+![[Resources-base.base#experiment]]
