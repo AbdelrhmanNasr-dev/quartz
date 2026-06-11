@@ -38,4 +38,4 @@ I’m currently building a life that feels like a well-optimized RPG. This garde
 
 Feel free to browse around! If you see something you like, or have a better way to optimize a logic gate, reach out. 
 
-👉 **Looking for technical details? Check out the [[README]]**
+👉 **Looking for technical details? Check out the [[README1]]**
