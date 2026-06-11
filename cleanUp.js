@@ -1,5 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Modern ES Module workaround for folder paths
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const contentDir = path.join(__dirname, 'content');
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
