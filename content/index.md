@@ -52,6 +52,3 @@ _👉 **Looking for technical details? Check out the [[README]]**_
 _open the search menu and explore the rest of my notes!_
 
 
-
-
-[abdelrhmannasr755]()
