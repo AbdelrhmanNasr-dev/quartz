@@ -2,7 +2,7 @@
 
 This repository contains the source code for my Obsidian Vault, published via **Quartz 5.0**. It follows a strictly organized PARA + Zettelkasten hybrid system to ensure high data-availability and low mental friction.
 
-For more info about my notes management strategy, check this: 👉 [[PARA + Zettelkasten]].
+For more info about my notes management strategies, check this out: 👉 [[PARA]] and  [[Zettelkasten]].
 
 ---
 
@@ -25,7 +25,7 @@ My vault is organized into five primary directories to keep things actionable:
 To handle high-volume data like my book list, movie backlog, and course tracking, I use Bases.
 
 * **Areas-base:** Tracks ongoing areas of focus.
-* **Resources-base:** My central "Inbox" for books, series, games, and URLs I am currently exploring.
+* **Resources-base:** My recent library for books, series, games, and URLs I am currently exploring.
 * **Permanent-base:** Indexes atomic notes, organized in a way that best fits my personal workflow.
 
 > *Note: These Bases are interactive in Obsidian but are rendered as static tables or links in the Quartz web view.*
