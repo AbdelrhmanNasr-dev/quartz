@@ -3,7 +3,7 @@ title: README
 draft: false
 tags:
   - new
-comments: "false"
+comments: "true"
 publishDate: 2026-06-26
 ---
 # 📄 Read me
@@ -61,5 +61,11 @@ Any new note I release will be temporarily tagged with `#new`. You can search fo
 * **SSG:** Quartz 5.0
 * **Editor:** Obsidian
 * **Hosting:** GitHub Pages
+
+## 💡 Questions & Feedback
+
+I am always looking to learn and improve! If you have any questions, suggestions, or feedback about this file, just leave a comment here and let's chat.
+
+
 
 *Generated with ❤️ by Abdelrhman Nasr.*
