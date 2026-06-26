@@ -1,3 +1,11 @@
+---
+title: README
+draft: false
+tags:
+  - new
+comments: "false"
+publishDate: 2026-06-26
+---
 # 📄 Read me
 
 This repository contains the source code for my Obsidian Vault, published via **Quartz 5.0**. It follows a strictly organized PARA + Zettelkasten hybrid system to ensure high data-availability and low mental friction.

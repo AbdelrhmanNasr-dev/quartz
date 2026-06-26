@@ -5,7 +5,7 @@ category:
   - book
 tags:
   - mediaDB/book
-
+  - new
 type: book
 subType: ""
 title: TED Talks (2016)

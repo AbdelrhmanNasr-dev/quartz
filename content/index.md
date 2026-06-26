@@ -1,29 +1,42 @@
 ---
-title: Welcome to My Digital Garden
+title: index
 draft: false
 tags:
+  - new
 comments: "false"
+publishDate: 2026-06-26
 ---
 # 🚀 Leveling Up My Digital Life
 
 <p align="center">
-  <img src="https://res.cloudinary.com/ddhmbji1k/image/upload/v1781129543/in-public/99%20Meta%20data/Attachments/bbjztonpbfwyewao6vk0.jpg" width="40%" alt="Developer Aesthetic">
+  <img src="https://res.cloudinary.com/ddhmbji1k/image/upload/v1781129543/in-public/99%20Meta%20data/Attachments/bbjztonpbfwyewao6vk0.jpg" width="30%" alt="Developer Aesthetic">
 </p>
 
-## 👋 Hello, I'm Abdelrhman Nasr
+## 🎮 Player Profile: Abdelrhman Nasr
 
-**Computer Science Student @  [OTU](https://www.facebook.com/profile.php?id=100086070084956&sk=about) | Aspiring .NET Backend Architect | Professional Procrastination-Fighter**
+> **Current Level:** 1 (Beginner Student)
+> 
+> **Class:** Backend Developer in Training
+> 
+> **Equipped Skills:** Basic C#, SQL
 
-I’m currently building a life that feels like a well-optimized RPG. This garden is where I store my **XP logs**, **technical loot**, and **boss-fight strategies** for mastering the .NET ecosystem.
+
+**Welcome to my public notebook!** I am currently a student figuring out the basics of programming and backend development.
+
+> [!info]
+> I am not an expert, I am just at the very beginning of my journey. This space is my digital inventory where I drop all the knowledge, tutorials, and basic concepts I pick up along the way. Think of it as my open-source study guide.
 
 ---
 ### 🗺️ Current Quests
+
 *   **Main Quest:** Mastering C# and Backend System Design.
 *   **Side Quest:** Gamifying my daily productivity via Obsidian.
 *   **Language Buff:** Elevating my English proficiency to "Expert Level."
 
 ---
 ### 🤳 Catch Me Online
+
+If you are also a student learning to code, or an experienced developer willing to share some advice, I'd love to connect!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN) 
 
@@ -35,10 +48,10 @@ I’m currently building a life that feels like a well-optimized RPG. This garde
 
 ---
 
-### ✨ Just a Few Words...
-> "In the world of backend, either you handle the exceptions, or the exceptions handle you."
+_👉 **Looking for technical details? Check out the [[README]]**_
 
-Feel free to browse around! If you see something you like, or have a better way to optimize a logic gate, reach out. 
+_open the search menu and explore the rest of my notes!_
 
-👉 **Looking for technical details? Check out the [[README]]**
+
+
 
