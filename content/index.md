@@ -2,7 +2,6 @@
 title: index
 draft: false
 tags:
-  - new
 comments: "false"
 publishDate: 2026-06-26
 ---
