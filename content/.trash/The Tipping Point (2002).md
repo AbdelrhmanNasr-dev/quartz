@@ -5,7 +5,6 @@ category:
   - book
 tags:
   - mediaDB/book
-
 type: book
 subType: ""
 title: The Tipping Point (2002)

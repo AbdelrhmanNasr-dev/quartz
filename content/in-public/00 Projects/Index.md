@@ -3,5 +3,5 @@ title: 00 Projects
 draft: false
 tags:
 comments: "false"
-publishDate:
+publishDate: 2026-07-16
 ---

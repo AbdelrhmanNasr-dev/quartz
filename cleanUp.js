@@ -34,7 +34,7 @@ function cleanExpiredTags(dir) {
         if (dateMatch) {
           const publishDateStr = dateMatch[1].trim();
           const publishDate = new Date(publishDateStr).getTime();
-
+          
           // 3. Check if 7 days have passed since publication
           if (!isNaN(publishDate) && (today - publishDate > SEVEN_DAYS_MS)) {
             
@@ -45,6 +45,7 @@ function cleanExpiredTags(dir) {
               
               const finalContent = content.replace(frontmatterMatch[1], () => updatedFrontmatter);
               fs.writeFileSync(fullPath, finalContent, 'utf8');
+              console.log("Looking for files in:", contentDir);
               console.log(`✅ Expired! Removed 'new' tag from: ${file}`);
             }
           }

@@ -11,54 +11,22 @@ properties:
   note.about:
     displayName: idea
 views:
-  - type: cards
-    name: Movies
+  - type: table
+    name: Projects
     filters:
       and:
-        - category.contains("movie")
+        - type.contains("project")
         - '!file.inFolder("Templates")'
     order:
       - file.name
-      - watched
-      - personalRating
-    sort: []
-    image: note.image
-    cardSize: 190
-    columnOrders:
-      file.file:
-        - 99 - Metadata/Templetes/Movie 1 1.md
-        - 99 - Metadata/Templetes/Movie 1.md
-        - 99 - Metadata/Templetes/Movie.md
-    cardOrders:
-      file.file: {}
-    columnColors:
-      file.file: {}
-    imageAspectRatio: 1.8
-  - type: cards
-    name: series
-    filters:
-      and:
-        - category.contains("series")
-        - '!file.inFolder("Templates")'
-    order:
-      - file.name
-      - watched
-      - personalRating
-    sort: []
-    image: note.image
-    cardSize: 190
-    columnOrders:
-      file.file:
-        - 99 - Metadata/Templetes/Movie 1 1.md
-        - 99 - Metadata/Templetes/Movie 1.md
-        - 99 - Metadata/Templetes/Movie.md
-    cardOrders:
-      file.file: {}
-    columnColors:
-      file.file: {}
-    imageAspectRatio: 1.7
+      - title
+      - reason
+      - date
+      - done
     columnSize:
-      file.name: 328
+      file.name: 79
+      note.date: 127
+      note.done: 91
   - type: cards
     name: Books
     filters:
@@ -75,42 +43,6 @@ views:
     cardSize: 190
     imageFit: contain
     imageAspectRatio: 1.5
-  - type: cards
-    name: Games
-    filters:
-      and:
-        - category.contains("game")
-        - '!file.inFolder("Templates")'
-    order:
-      - file.name
-      - played
-      - personalRating
-    image: note.image
-    imageAspectRatio: 0.35
-    cardSize: 310
-  - type: table
-    name: Backlog
-    filters:
-      and:
-        - category.contains("backlog")
-        - '!file.inFolder("Templates")'
-    groupBy:
-      property: type
-      direction: ASC
-    order:
-      - file.name
-      - title
-      - date
-      - type
-      - reason
-      - tags
-      - category
-    sort: []
-    columnSize:
-      file.name: 77
-      note.title: 192
-      note.type: 109
-      note.reason: 301
   - type: table
     name: Quotes
     filters:
@@ -130,87 +62,6 @@ views:
       note.title: 229
       note.date: 124
       note.source: 129
-  - type: table
-    name: experiment
-    filters:
-      and:
-        - type.contains("experiment")
-        - '!file.inFolder("Templates")'
-    groupBy:
-      property: type
-      direction: ASC
-    order:
-      - file.name
-      - title
-      - date
-      - tags
-    sort:
-      - property: title
-        direction: ASC
-    columnSize:
-      file.name: 73
-  - type: table
-    name: Urls
-    filters:
-      and:
-        - category.contains("url")
-        - '!file.inFolder("Templates")'
-    order:
-      - file.name
-      - title
-      - status
-      - url
-      - tags
-    columnSize:
-      file.name: 75
-      note.title: 168
-      note.status: 79
-  - type: table
-    name: Podcasts
-    filters:
-      and:
-        - category.contains("podcast")
-        - '!file.inFolder("Templates")'
-    order:
-      - file.name
-      - title
-      - performer
-      - channel
-      - seen
-      - rate
-      - type
-      - resource
-      - url
-      - tags
-    sort:
-      - property: rate
-        direction: ASC
-    columnSize:
-      file.name: 277
-      note.title: 232
-      note.performer: 146
-      note.channel: 206
-      note.seen: 67
-      note.rate: 63
-      note.type: 86
-      note.url: 269
-      note.tags: 215
-  - type: table
-    name: Projects
-    filters:
-      and:
-        - type.contains("project")
-        - '!file.inFolder("Templates")'
-    order:
-      - file.name
-      - title
-      - reason
-      - date
-      - done
-    columnSize:
-      file.name: 79
-      note.date: 127
-      note.done: 91
   - type: table
     name: Courses
     filters:
@@ -257,3 +108,68 @@ views:
       note.date: 113
       note.developers: 117
       note.about: 207
+  - type: table
+    name: Podcasts
+    filters:
+      and:
+        - category.contains("podcast")
+        - '!file.inFolder("Templates")'
+    order:
+      - file.name
+      - title
+      - performer
+      - channel
+      - seen
+      - rate
+      - type
+      - resource
+      - url
+      - tags
+    sort:
+      - property: rate
+        direction: ASC
+    columnSize:
+      file.name: 277
+      note.title: 232
+      note.performer: 146
+      note.channel: 206
+      note.seen: 67
+      note.rate: 63
+      note.type: 86
+      note.url: 269
+      note.tags: 215
+  - type: table
+    name: Urls
+    filters:
+      and:
+        - category.contains("url")
+        - '!file.inFolder("Templates")'
+    order:
+      - file.name
+      - title
+      - status
+      - url
+      - tags
+    columnSize:
+      file.name: 75
+      note.title: 168
+      note.status: 79
+  - type: table
+    name: experiment
+    filters:
+      and:
+        - type.contains("experiment")
+        - '!file.inFolder("Templates")'
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - date
+      - tags
+    sort:
+      - property: title
+        direction: ASC
+    columnSize:
+      file.name: 73
