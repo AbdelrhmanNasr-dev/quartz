@@ -38,12 +38,12 @@ function cleanExpiredTags(dir) {
           // 3. Check if 7 days have passed since publication
           if (!isNaN(publishDate) && (today - publishDate > SEVEN_DAYS_MS)) {
             
-            // 4. Safely remove the '- new' list item from Obsidian Properties
-            if (frontmatter.includes('- new')) {
-              let updatedFrontmatter = frontmatter.replace(/^[ \t]*-[ \t]*new[ \t]*$/m, '');
+            const tagRegex = /^[ \t]*-[ \t]*new[ \t]*\r?\n?/gm;
+            
+            if (tagRegex.test(frontmatter)) {
+              let updatedFrontmatter = frontmatter.replace(tagRegex, '');
               
-              // Rebuild the file and save it
-              const finalContent = content.replace(frontmatterMatch[1], updatedFrontmatter);
+              const finalContent = content.replace(frontmatterMatch[1], () => updatedFrontmatter);
               fs.writeFileSync(fullPath, finalContent, 'utf8');
               console.log(`✅ Expired! Removed 'new' tag from: ${file}`);
             }
