@@ -1,0 +1,31 @@
+views:
+  - type: table
+    name: Concepts
+    filters:
+      and:
+        - category.contains("concept")
+        - '!file.inFolder("Templates")'
+    order:
+      - file.name
+      - type
+      - source
+      - date
+    sort:
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 254
+      note.source: 247
+  - type: table
+    name: Thoughts
+    filters:
+      and:
+        - category.contains("thought")
+        - '!file.inFolder("Templates")'
+    order:
+      - file.name
+      - situation
+      - date
+    columnSize:
+      file.name: 254
+      note.situation: 356

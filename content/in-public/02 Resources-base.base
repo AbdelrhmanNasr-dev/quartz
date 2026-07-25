@@ -173,3 +173,5 @@ views:
         direction: ASC
     columnSize:
       file.name: 73
+      note.title: 173
+      note.date: 231
