@@ -13,7 +13,9 @@ type: system
 source: YouTube
 links:
   - "[[Career growth]]"
-
+draft: false
+comments: "true"
+publishDate: 2026-07-25
 ---
 ## PROJECTS is
 
