@@ -26,7 +26,6 @@ jobs:
           
           # التحقق من وجود تعديلات فعلية قبل الرفع
           if ! git diff-index --quiet HEAD; then
-            console.log("Found the tag in file:", file);
             git commit -m "chore: removed expired #new tags based on publishDate"
             git push
             echo "✅ Changes pushed successfully!"
