@@ -1,8 +1,7 @@
 ---
-title: <% tp.file.title %>
+title: Untitled
 draft: false
 tags:
-  - new
 comments: "true"
 publishDate:
 ---
