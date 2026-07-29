@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *' # Runs every day at midnight
   workflow_dispatch:
+  # يمكنك إزالة علامة الـ # من السطور القادمة إذا أردت تشغيل السكريبت تلقائياً مع كل عملية Push
+  # push:
+  #   branches:
+  #     - v5 # استبدل v5 بـ main إذا كان هو البرانش الأساسي
 
 jobs:
   remove-expired-tags:
@@ -14,6 +18,16 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          # استخدام الـ Token الشخصي ليتمكن من تشغيل الـ Workflow الخاص بـ Quartz
+          token: ${{ secrets.PAT_TOKEN }}
+          # جلب تاريخ الملفات بالكامل وهو أمر ضروري لعمل Quartz بشكل صحيح
+          fetch-depth: 0 
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # تم التحديث لتجنب تحذيرات انتهاء الدعم
 
       - name: Run Node.js Cleanup Script
         run: node cleanUp.js
@@ -28,7 +42,7 @@ jobs:
           if ! git diff-index --quiet HEAD; then
             git commit -m "chore: removed expired #new tags based on publishDate"
             git push
-            echo "✅ Changes pushed successfully!"
+            echo "✅ Changes pushed successfully! Quartz build should trigger now."
           else
             echo "⚠️ No expired tags found to clean up."
           fi
