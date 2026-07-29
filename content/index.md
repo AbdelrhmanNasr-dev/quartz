@@ -4,7 +4,7 @@ draft: false
 tags:
   - new
 comments: "false"
-publishDate:
+publishDate: 2026-06-01
 ---
 # 👋 **Hello, I'm Abdelrhman Nasr**
 
