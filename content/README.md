@@ -2,8 +2,9 @@
 title: README
 draft: false
 tags:
+  - new
 comments: "true"
-publishDate: 2026-06-01
+publishDate: 2026-07-25
 ---
 # 📄 README
 
