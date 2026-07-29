@@ -2,7 +2,6 @@
 title: Welcome to My Digital Garden
 draft: false
 tags:
-  - new
 comments: "false"
 publishDate:
 ---
