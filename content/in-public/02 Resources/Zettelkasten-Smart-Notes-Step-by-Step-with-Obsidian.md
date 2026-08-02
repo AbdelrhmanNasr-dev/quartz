@@ -6,7 +6,7 @@ type: summary
 tags:
   - new
 date: 2026-06-10
-modified: 2026-07-31T00:24:04+03:00
+modified: 2026-07-31T20:58:37+03:00
 category:
   - youtube
 links:
@@ -16,7 +16,7 @@ comments: "true"
 publishDate: 2026-07-31
 ---
 
-# Zettelkasten Smart Notes: Step by Step with Obsidian
+# Zettelkasten Method
 
 > [!abstract] Overview
 > This video demonstrates how to implement the Zettelkasten method (smart notes) entirely within Obsidian. It provides a practical, step-by-step workflow starting from an empty vault, showing how to create folder structures, templates, and link notes to synthesize knowledge for creative output like blog posts.
