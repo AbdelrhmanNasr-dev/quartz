@@ -1,6 +1,5 @@
 ---
 tags:
-  - new
 date: 2026-07-27
 modified: 2026-07-28T17:06:21+03:00
 title: Zettelkasten method
