@@ -4,7 +4,6 @@ channel: Martin Adams
 url: https://youtu.be/ziE6UExsOrs?si=WRIP5aS3936ZmuQ-
 type: summary
 tags:
-  - new
 date: 2026-06-10
 modified: 2026-07-31T20:58:37+03:00
 category:

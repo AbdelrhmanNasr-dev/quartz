@@ -3,7 +3,6 @@ cssclasses:
   - center-titles
   - center-images
 tags:
-  - new
 date: 2025-09-15
 modified: 2026-07-31T00:35:52+03:00
 title: 2025-15-10-Para-Method

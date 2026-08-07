@@ -4,7 +4,6 @@ channel: "[[Tiago Forte]]"
 url: https://youtu.be/T6Mfl1OywM8
 type: summary
 tags:
-  - new
 date: 2026-07-31
 modified: 2026-07-31T00:20:58+03:00
 category:
