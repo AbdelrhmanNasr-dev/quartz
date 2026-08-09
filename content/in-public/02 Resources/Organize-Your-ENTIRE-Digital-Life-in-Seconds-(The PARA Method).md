@@ -6,7 +6,7 @@ type: summary
 tags:
   - new
 date: 2026-07-31
-modified: 2026-07-31T00:20:58+03:00
+modified: 2026-08-09T08:32:14+03:00
 category:
   - youtube
 links:
@@ -15,9 +15,11 @@ author:
   - "[[Tiago Forte]]"
 draft: false
 comments: "true"
-publishDate: 2026-07-31
+publishDate: 2026-08-09
+aliases:
+  - PARA
 ---
-# The PARA Method
+# The PARA Method 
 
 > [!abstract] Overview
 > PARA is a universal system for organizing digital information based entirely on **actionability** rather than topic. It eliminates the friction of deciding where a new note or file should go by running it through a four-step prioritization filter. 

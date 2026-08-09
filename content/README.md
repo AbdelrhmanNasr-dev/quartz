@@ -9,7 +9,7 @@ publishDate: 2026-06-01
 
 This repository contains the source code for my Obsidian Vault, published via Quartz 5.0. It follows an organized PARA + Zettelkasten hybrid system to ensure high data availability and low mental friction.
 
-For more info about my notes management, check this out: 👉 [PARA](2025-15-10-Para-Method) and [Zettelkasten](2026-07-27-Zettelkasten-Method).
+> For more info about my notes management, check this out: 👉 [[Organize-Your-ENTIRE-Digital-Life-in-Seconds-(The PARA Method) | PARA ]]  and [[Zettelkasten-Smart-Notes-Step-by-Step-with-Obsidian | Zettelkasten]].
 
 
 ---

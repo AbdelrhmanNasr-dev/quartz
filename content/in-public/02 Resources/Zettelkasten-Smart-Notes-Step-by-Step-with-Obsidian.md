@@ -13,7 +13,9 @@ links:
 author: Martin Adams
 draft: false
 comments: "true"
-publishDate: 2026-07-31
+publishDate: 2026-08-09
+aliases:
+  - Zettelkasten
 ---
 
 # Zettelkasten Method

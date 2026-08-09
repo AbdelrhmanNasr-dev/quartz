@@ -1,6 +1,5 @@
 ---
 tags:
-  - new
 date: 2026-07-27
 modified: 2026-07-31T00:36:05+03:00
 title: 2026-07-27-Zettelkasten
